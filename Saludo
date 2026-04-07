@@ -1,0 +1,7 @@
+const nombre: string = "Josue";
+
+function saludar(usuario: string): void {
+    console.log(`Hola, ${usuario}! Bienvenido.`);
+}
+
+saludar(nombre);
