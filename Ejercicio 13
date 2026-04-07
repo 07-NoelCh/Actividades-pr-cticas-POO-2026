@@ -1,0 +1,3 @@
+let n1: number = 5, n2: number = 10, n3: number = 15;
+
+console.log("13) Valores:", n1, n2, n3);

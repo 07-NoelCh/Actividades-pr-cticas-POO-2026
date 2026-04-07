@@ -1,0 +1,6 @@
+let x: number = 285;
+let y: number = 1396;
+
+let suma3: number = x + y;
+
+console.log("15) Resultado:", suma3);

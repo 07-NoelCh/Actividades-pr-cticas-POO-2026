@@ -1,0 +1,3 @@
+console.log(`7: El resto de dividir ${dividendo} 
+
+    entre ${divisor} es: ${dividendo % divisor}`);

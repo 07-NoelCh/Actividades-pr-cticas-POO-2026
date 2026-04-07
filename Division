@@ -1,0 +1,6 @@
+const division1: number = 301 / 3;
+
+console.log("6) Resultado:", division1);
+
+const resto1: number = 301 % 3;
+console.log("7) Resultado:", resto1);

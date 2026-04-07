@@ -1,0 +1,6 @@
+let a: number = 121;
+let b: number = 132;
+
+let producto2: number = a * b;
+
+console.log("14) Resultado:", producto2);
