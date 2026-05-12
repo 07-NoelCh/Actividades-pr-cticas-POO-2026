@@ -1,9 +1,15 @@
-let num4;
 
 while (true) {
-    num4 = parseInt(prompt("Ingrese número (0 para salir)")!);
-    if (num4 === 0) break;
+    const input = prompt("Ingrese número (0 para salir)");
+    if (input === null) break;
 
+    const num4 = parseInt(input, 10);
+    if (Number.isNaN(num4)) {
+        console.log("Entrada inválida");
+        continue;
+    }
+
+    if (num4 === 0) break;
     console.log("Cuadrado:", num4 * num4);
 }
 
