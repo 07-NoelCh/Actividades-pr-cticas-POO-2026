@@ -1,0 +1,9 @@
+let num4;
+
+while (true) {
+    num4 = parseInt(prompt("Ingrese número (0 para salir)")!);
+    if (num4 === 0) break;
+
+    console.log("Cuadrado:", num4 * num4);
+}
+

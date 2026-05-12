@@ -1,0 +1,10 @@
+let a1: number = parseInt(prompt("Ingrese un número")!);
+let b2: number = parseInt(prompt("Ingrese otro número")!);
+
+if (5 === a) {
+    console.log("A es igual a 5");
+}
+
+if (10 === b) {
+    console.log("B es igual a 10");
+}

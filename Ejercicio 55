@@ -1,0 +1,5 @@
+let num1: number = parseInt(prompt("Ingrese un número")!);
+
+let resultado = (num1 >= 0) ? num1 : -num1;
+
+console.log("Valor absoluto:", resultado);

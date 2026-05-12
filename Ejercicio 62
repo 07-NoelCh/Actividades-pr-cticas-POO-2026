@@ -1,0 +1,9 @@
+let c = prompt("Ingrese carácter")!.toLowerCase();
+
+if (c >= '0' && c <= '9') {
+    console.log("Número");
+} else if ("aeiou".includes(c)) {
+    console.log("Vocal");
+} else {
+    console.log("Consonante");
+}

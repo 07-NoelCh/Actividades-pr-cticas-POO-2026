@@ -1,0 +1,9 @@
+let c3 = prompt("Ingrese carácter")!;
+
+if (c3 >= '0' && c3 <= '9') {
+    console.log("Número");
+} else if (c3 === "." || c3 === "," || c3 === ";" || c3 === ":") {
+    console.log("Puntuación");
+} else {
+    console.log("Otro");
+}

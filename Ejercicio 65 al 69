@@ -1,0 +1,44 @@
+//65
+while (true) {
+    let a = parseInt(prompt("Ingrese A")!);
+    let b = parseInt(prompt("Ingrese B")!);
+
+    console.log(a % b === 0 ? "Es múltiplo" : "No es múltiplo");
+}
+
+
+while (true) {
+    let a = parseInt(prompt("A")!);
+    let b = parseInt(prompt("B")!);
+
+    if (a % b === 0) console.log("A es múltiplo de B");
+    else if (b % a === 0) console.log("B es múltiplo de A");
+    else console.log("Ninguno es múltiplo");
+}
+
+/
+let i1 = 1;
+
+while (i1 <= 10) {
+    console.log(i1);
+    i1++;
+}
+
+
+let i = 26;
+
+while (i >= 10) {
+    if (i % 2 === 0) console.log(i);
+    i--;
+}
+
+//69
+let num = parseInt(prompt("Ingrese número positivo")!);
+let contador = 0;
+
+while (num > 0) {
+    num = Math.floor(num / 10);
+    contador++;
+}
+
+console.log("Tiene", contador, "cifras");

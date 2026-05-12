@@ -1,0 +1,8 @@
+let pass;
+
+do {
+    pass = parseInt(prompt("Ingrese contraseña")!);
+} while (pass !== 1111);
+
+console.log("Acceso permitido");
+
